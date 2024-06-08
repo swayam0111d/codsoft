@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Swayam Raj</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, reiciendis aspernatur</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="img/picture.webp" alt="Swayam Raj">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/About-Me.png" alt="About Me Image">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>me</span></h2>
+            <h3>Who I am</h3>
+            <p>Hello! I’m a second-year student with a knack for order, uniformity, and precision. My enthusiasm for competitive programming is matched only by my commitment to community contribution. Here’s a bit about me:
+                <br><br>
+                <b>- Coding: </b>It’s not just what I do; it’s what I love. It challenges me, excites me, and keeps me pushing forward. <br>
+               <b> - Quick Fact:</b> My fingers fly across the keyboard at over 90 words per minute—it’s like a superpower! <br>
+                <br>
+                Beyond the world of technology, I thrive on the stage, engaging audiences with my public speaking skills. I’m a lifelong learner, always eager for the next challenge and ready to leap into new experiences.
+            </p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bxl-html5'></i>
+                <h3>HTML & CSS</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum, temporibus explicabo, consectetur qui rem corporis in dicta ducimus fuga est aspernatur omnis!</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-javascript'></i>
+                <h3>JavaScript</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum, temporibus explicabo, consectetur qui rem corporis in dicta ducimus fuga est aspernatur omnis!</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-nodejs'></i>
+                <h3>Node.js</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum, temporibus explicabo, consectetur qui rem corporis in dicta ducimus fuga est aspernatur omnis!</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-react'></i>
+                <h3>React.js</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum, temporibus explicabo, consectetur qui rem corporis in dicta ducimus fuga est aspernatur omnis!</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-c-plus-plus'></i>
+                <h3>C++</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum, temporibus explicabo, consectetur qui rem corporis in dicta ducimus fuga est aspernatur omnis!</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-mongodb'></i>
+                <h3>MongoDB</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum, temporibus explicabo, consectetur qui rem corporis in dicta ducimus fuga est aspernatur omnis!</p>
+                <a href="#" class="btn" id="btn" onclick="readtext()">Read more</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="img/project.jpg" alt="Project 1">
+                <div class="portfolio-layer">
+                    <h4>Game</h4>
+                    <p>Bird Hunting Game using HTML, Css and Js</p>
+                    <a href="#"><i class='bx bx-plus-medical'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/project.jpg" alt="Project 2">
+                <div class="portfolio-layer">
+                    <h4>Calculator</h4>
+                    <p>Scientific calculator using HTML, CSS, and JavaScript</p>
+                    <a href="#"><i class='bx bx-plus-medical'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/project.jpg" alt="Project 3">
+                <div class="portfolio-layer">
+                    <h4>Fee management Report</h4>
+                    <p>Fee management Report using Java and MYSql</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="testimonial-container">
+        <h2 class="heading">My <span>Socials</span></h2>
+        <div class="testimonial-wrapper">
+            <div class="testimonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+                    <div class="testimonial-slide swiper-slide">
+                        <i class='bx bxl-linkedin-square'></i>
+                        <h3>LinkedIn</h3>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <i class='bx bxl-twitter'></i>
+                        <h3>Twitter</h3>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <i class='bx bxl-github'></i>
+                        <h3>Github</h3>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" placeholder="Full Name">
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="email" placeholder="Email Address">
+                    <span class="focus"></span>
+                </div>
+            </div>
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="number" placeholder="Mobile Number">
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email Subject">
+                    <span class="focus"></span>
+                </div>
+            </div>
+            <div class="textarea-field">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <span class="focus"></span>
+            </div>
+            <div class="btn-box btns">
+                <button type="submit" class="btn">Submit</button>
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; by Swayam Raj | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="/index.js"></script>
+</body>
+
+</html>
